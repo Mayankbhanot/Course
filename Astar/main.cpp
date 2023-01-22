@@ -12,7 +12,6 @@ using std::string;
 using std::vector;
 using std::abs;
 
-// TODO: Add kStart and kFinish enumerators to the State enum.
 enum class State {kStart, kEmpty, kObstacle, kClosed, kPath, kFinish};
 
 // directional deltas
